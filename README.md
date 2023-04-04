@@ -3,8 +3,8 @@
 </h1>
 
 <h1 align="center">
-<img src="src/img/Public/image2.jpg">
-<img src="src/img/Public/image1.jpg" >
+<img src="src/Public/capitura1.jpg">
+<img src="src/Public/capitura2.jpg" >
 </h1>
 
 ## Desafio HTML + CSS avançado ⚔

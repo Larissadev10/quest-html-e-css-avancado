@@ -1,28 +1,22 @@
 html {
-    
+
     font-size: 62.5%
-   
-   }
+}
 
 body {
     background: url(../img/bg-desktop.svg) center center no-repeat;
     background-position-x: -2rem;
-    
-    
-   
     background-color: #674bb1;
-   
-} 
+}
 
 main {
-    
+
     font-family: 'Poppins';
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "header header"
-                      " information information "
+                         "information information"
                          "footer footer";
-
 
 }
 
@@ -32,12 +26,10 @@ main .header {
     padding: 25px 52px;
     padding-bottom: 0;
 
-    
 }
 
-main .header .logo img{
+main .header .logo img {
     width: 21rem;
-
 }
 
 
@@ -47,25 +39,23 @@ main .information {
     grid-area: information;
 
     display: flex;
-   
+
 }
 
 main .information .image {
-       margin-top: 84px;
-      margin-left: 52px;
-       max-width: 720px;
-       padding: 0 auto;
+    margin-top: 84px;
+    margin-left: 52px;
+    max-width: 720px;
+    padding: 0 auto;
 }
 
 main .information .about {
-    padding-top:  9.6%;
+    padding-top: 9.6%;
     padding-left: 5.5rem;
     display: flex;
     flex-direction: column;
     align-content: center;
     width: 600px;
-    
-   
 }
 
 main .information .about h1 {
@@ -73,12 +63,9 @@ main .information .about h1 {
     font-size: 4rem;
     font-weight: 600;
     color: #fff;
-   
-    
-
 }
 
-main .information .about p{
+main .information .about p {
     font-family: 'open sans';
     margin: 20px 0px;
     width: 490px;
@@ -86,10 +73,10 @@ main .information .about p{
     font-size: 1.8rem;
     font-weight: 500;
     color: #fff;
-    letter-spacing:0.12px;
+    letter-spacing: 0.12px;
 }
 
-.information .about  a {
+.information .about a {
     color: #674bb1;
     align-self: flex-start;
     padding: 16px 65px;
@@ -97,13 +84,13 @@ main .information .about p{
     font-size: 17px;
     background-color: #fff;
     border-radius: 40px;
-    
+
 }
 
 .information .about a:hover {
     color: #fff;
     background-color: #e980e7;
-    box-shadow: 3px 3px 10px  rgb(58, 58, 58);
+    box-shadow: 3px 3px 10px rgb(58, 58, 58);
 }
 
 
@@ -113,8 +100,8 @@ main .footer {
     font-size: 18px;
     display: flex;
     justify-self: flex-end;
-    padding: 10px;
-    
+    padding: 25px;
+
 }
 
 main .footer a {
@@ -126,15 +113,14 @@ main .footer a {
     border-radius: 40px;
     border: 1px solid;
     border-color: #fff;
-    background-color:#674bb1;
+    background-color: #674bb1;
     color: #fff;
     margin: 0px 9px;
-    margin-top: 15px;
     
+
 }
 
 main .footer a:hover {
     color: #e980e7;
     border-color: #e980e7;
 }
-

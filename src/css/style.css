@@ -5,9 +5,10 @@ html {
    }
 
 body {
-    background: url(../img/bg-desktop.svg) no-repeat;
-   background-position-y: -37px ;
-    background-position-x: -100px;
+    background: url(../img/bg-desktop.svg) center center no-repeat;
+    background-position-x: -2rem;
+    
+    
    
     background-color: #674bb1;
    
@@ -28,32 +29,18 @@ main {
 
 main .header {
     grid-area: header;
-    padding: 40px 65px;
+    padding: 25px 52px;
     padding-bottom: 0;
 
     
 }
 
 main .header .logo img{
-    width: 17rem;
+    width: 21rem;
 
 }
 
-@media (max-width:375px) {
-    body {
-        background: url(../img/bg-mobile.svg) no-repeat;
-    background-color: #674bb1;
-   
-    }
 
-    main .header {
-        padding: 30px ;
-    }
-
-    main .header .logo img {
-        width: 130px;
-    }
-}
 
 
 main .information {
@@ -64,15 +51,15 @@ main .information {
 }
 
 main .information .image {
-       margin-top: 65px;
-      margin-left: 65px;
-       max-width: 610px;
+       margin-top: 84px;
+      margin-left: 52px;
+       max-width: 720px;
        padding: 0 auto;
 }
 
 main .information .about {
-    padding-top:  7.5%;
-    padding-left: 3%;
+    padding-top:  9.6%;
+    padding-left: 5.5rem;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -82,28 +69,30 @@ main .information .about {
 }
 
 main .information .about h1 {
-    line-height: 48px;
-    font-size: 4.5rem;
+    line-height: 58px;
+    font-size: 4rem;
     font-weight: 600;
     color: #fff;
+   
     
 
 }
 
 main .information .about p{
-    font-family: 'Inter Tight';
+    font-family: 'open sans';
     margin: 20px 0px;
-    width: 470px;
-    line-height: 22px;
+    width: 490px;
+    line-height: 28px;
     font-size: 1.8rem;
-    font-weight: 400;
+    font-weight: 500;
     color: #fff;
+    letter-spacing:0.12px;
 }
 
 .information .about  a {
     color: #674bb1;
     align-self: flex-start;
-    padding: 10px 50px;
+    padding: 16px 65px;
     font-weight: 400;
     font-size: 17px;
     background-color: #fff;
@@ -117,67 +106,14 @@ main .information .about p{
     box-shadow: 3px 3px 10px  rgb(58, 58, 58);
 }
 
-@media (max-width:885px) {
-    main .information {
-        display: flex;
-       flex-direction: column;
-    }
-  
-    main .footer {
-        display: flex;
-        margin: 10% 25%;
 
-    }
-}
-
-@media (max-width:375px) {
-    main .information {
-        display: flex;
-        flex-direction: column;
-      
-    }
-
-   main  .information .image {
-        width: 280px;
-        margin-left: 30px;
-        margin-top: 30px;
-      
-    }
-
-    main .information .about {
-        max-width: 320px;
-    }
-
-    main .information .about h1 {
-        margin-top: 20px;
-       font-size: 25px;
-      
-       text-align: center;
-       line-height: 40px;
-    }
-
-    main .information .about p {
-           margin-top: 10px;
-          max-width: 300px;
-           text-align: center;
-           font-size: 15px;
-    }
-
-    .information .about  a {
-     padding: 10px 70px;
-     margin-left: 20%;
-     font-size: 13px;
-    }
-}
 
 main .footer {
-   
-    padding-right: 100px;
-    font-size: 18px;
     grid-area: footer;
+    font-size: 18px;
     display: flex;
     justify-self: flex-end;
-   
+    padding: 10px;
     
 }
 
@@ -185,15 +121,15 @@ main .footer a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 40px;
     border: 1px solid;
     border-color: #fff;
     background-color:#674bb1;
     color: #fff;
-    margin: 0px 6px;
-    margin-top: -10px;
+    margin: 0px 9px;
+    margin-top: 15px;
     
 }
 
@@ -202,20 +138,3 @@ main .footer a:hover {
     border-color: #e980e7;
 }
 
-@media (max-width:375px) {
-    main .footer {
-        display: flex;
-        padding-right: 8px;
-        font-size: 10px;
-        margin-top: 70px;
-
-    }
-
-    main .footer a {
-      
-        width: 30px;
-        height: 30px;
-       
-    }
-
-}

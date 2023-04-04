@@ -1,86 +1,171 @@
-@media (max-width:375px) {
+@media (max-width:733px) {
     body {
-        background: url(../img/bg-mobile.svg) no-repeat;
-    background-color: #674bb1;
-   
+        background: url(../img/bg-desktop.svg);
+        background-color: #674bb1;
     }
 
     main .header {
-        padding: 30px ;
+        padding: 20px ;
+        padding-left: 35px;
     }
 
     main .header .logo img {
-        width: 130px;
+        width: 25rem;
     }
-}
 
-@media (max-width:885px) {
-    main .information {
-        display: flex;
-       flex-direction: column;
-    }
-  
-    main .footer {
-        display: flex;
-        margin: 10% 25%;
-
-    }
-}
-
-@media (max-width:375px) {
     main .information {
         display: flex;
         flex-direction: column;
       
     }
 
-   main  .information .image {
-        width: 300px;
-        margin-left: 30px;
-        margin-top: 30px;
+    
+
+   main .information .image img{
+        width: 60.4rem;
+        padding-top: 12px;
+        margin-left: -15px;
       
     }
 
     main .information .about {
-        max-width: 375px;
+        width: 620px;
     }
 
     main .information .about h1 {
-        margin-top: 20px;
-       font-size: 27px;
+        
+        margin-top: 50px;
+       font-size: 47px;
       
        text-align: center;
-       line-height: 40px;
+       line-height: 70px;
     }
 
     main .information .about p {
-           margin-top: 10px;
-          max-width: 350px;
+           margin-top: 25px;
+           width: 570px;
            text-align: center;
-           font-size: 15px;
+           font-size:32px;
+           line-height: 48px;
+          
+           font-weight: 400;
     }
 
     .information .about  a {
-     padding: 10px 70px;
-     margin-left: 25%;
-     font-size: 13px;
-    }
-}
+     margin-top: 29px;
+     padding: 21px 150px;
+     margin-left: 15%;
+     font-size: 25px;
 
-@media (max-width:375px) {
+    }
+
+    
+
     main .footer {
         display: flex;
-        padding-right: 20px;
-        font-size: 10px;
-        margin-top: 70px;
+        padding-right: 259px;
+        font-size: 28px;
+        margin-top: 100px;
 
     }
 
     main .footer a {
       
-        width: 30px;
-        height: 30px;
+        width: 56px;
+        height: 55px;
        
+    }
+}
+
+@media (max-width:425px) {
+    body {
+        background: url(../img/bg-mobile.svg)  no-repeat;
+        background-color: #674bb1;
+        background-size: 425px;
+        
+    }
+
+    main .header {
+        padding: 22px ;
+        padding-left: 35px;
+    }
+
+    main .header .logo img {
+        width: 15rem;
+    }
+
+    main .information {
+        display: flex;
+        flex-direction: column;
+      
+    }
+
+    
+
+   main .information .image img{
+        width: 30rem;
+        padding-top: 10px;
+        margin-left: -27px;
+      
+    }
+
+    main .information .about {
+        width: 340px;
+        padding-left: 5px;
+        
+    }
+
+    main .information .about h1 {
+       margin-top: 50px;
+       font-size: 25px;
+       text-align: center;
+       line-height: 40px;
+      
+    }
+
+    main .information .about p {
+           margin-top: 25px;
+           width: 310px;
+           text-align: center;
+           font-size: 17px;
+           line-height: 30px;
+           padding-left: 19px;
+           font-weight: 400;
+    }
+
+    .information .about  a {
+     margin-top: 29px;
+     padding: 7px 40px;
+     margin-left: 30%;
+     font-size: 15px;
+
+    }
+
+    
+
+    main .footer {
+        display: flex;
+        padding-right: 185px;
+        font-size: 15px;
+        margin-top: 60px;
+
+    }
+
+    main .footer a {
+      
+        width: 25px;
+        height: 25px;
+       
+    }
+}
+
+@media (max-width: 375px) {
+    main .footer {
+        display: flex;
+        padding-right: 90px;
+        font-size: 15px;
+        margin-top: 50px;
+        
     }
 
 }

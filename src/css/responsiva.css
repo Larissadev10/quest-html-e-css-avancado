@@ -1,164 +1,84 @@
-@media (max-width:733px) {
+@media (max-width: 1000px) {
+
     body {
-        background: url(../img/bg-desktop.svg);
-        background-color: #674bb1;
+        display: flex;
+        background: url(../img/bg-mobile.svg) no-repeat;
+        background-size: 1000px;
+        background-color: hwb(256 29% 31%);
+        max-width: 1000px;
+    
     }
 
-    main .header {
-        padding: 20px;
-        padding-left: 35px;
-    }
+    main {
+        display: flex;
+        flex-direction: column;
 
-    main .header .logo img {
-        width: 25rem;
+
     }
 
     main .information {
         display: flex;
         flex-direction: column;
+        align-items: center;
+
     }
 
+    main .information .image {
+        margin: 0 auto;
+        margin-top: 160px;
 
-
-    main .information .image img {
-        width: 60.4rem;
-        padding-top: 12px;
-        margin-left: -15px;
     }
 
     main .information .about {
-        width: 620px;
+        margin-top: 100px;
+        text-align: center;
+        gap: 10px;
+        padding: 0;
     }
 
     main .information .about h1 {
-        margin-top: 50px;
-        font-size: 47px;
-        text-align: center;
-        line-height: 70px;
+        font-size: 4.5rem;
+        line-height: 67px;
+
     }
 
     main .information .about p {
-        margin-top: 25px;
-        width: 570px;
-        text-align: center;
-        font-size: 32px;
-        line-height: 48px;
-        font-weight: 400;
-    }
-
-    .information .about a {
-        margin-top: 29px;
-        padding: 21px 150px;
-        margin-left: 15%;
-        font-size: 25px;
-    }
-
-
-
-    main .footer {
-        display: flex;
-        padding-right: 259px;
-        font-size: 28px;
-        margin-top: 100px;
-
-    }
-
-    main .footer a {
-        width: 56px;
-        height: 55px;
-
-    }
-}
-
-@media (max-width:425px) {
-    body {
-        background: url(../img/bg-mobile.svg) no-repeat;
-        background-color: #674bb1;
-        background-size: 425px;
-
-    }
-
-    main .header {
-        padding: 22px;
-        padding-left: 35px;
-    }
-
-    main .header .logo img {
-        width: 15rem;
-    }
-
-    main .information {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-
-
-    main .information .image img {
-        width: 30rem;
-        padding-top: 10px;
-        margin-left: -27px;
-
-    }
-
-    main .information .about {
-        width: 340px;
-        padding-left: 5px;
-
-    }
-
-    main .information .about h1 {
-        margin-top: 50px;
-        font-size: 25px;
-        text-align: center;
+        font-size: 3.1rem;
+        padding: auto;
+        width: 600px;
         line-height: 40px;
 
     }
 
-    main .information .about p {
-        margin-top: 25px;
-        width: 310px;
-        text-align: center;
-        font-size: 17px;
-        line-height: 30px;
-        padding-left: 19px;
-        font-weight: 400;
+    main .information .about a {
+        align-self: center;
+        font-size: 25px;
+        padding: 20px 150px;
+        margin-top: 20px;
     }
-
-    .information .about a {
-        margin-top: 29px;
-        padding: 7px 40px;
-        margin-left: 30%;
-        font-size: 15px;
-
-    }
-
-
 
     main .footer {
-        display: flex;
-        padding-right: 185px;
-        font-size: 15px;
-        margin-top: 60px;
+        align-self: center;
+        margin-top: 108px;
+
 
     }
 
     main .footer a {
+        width: 55px;
+        height: 55px;
+    }
 
-        width: 25px;
-        height: 25px;
-
+    main .footer a i {
+        font-size: 30px;
     }
 }
 
-@media (max-width: 375px) {
-    main .footer {
+@media (min-width: 1500px) {
+    body {
+        max-width: 2560px;
         display: flex;
-        padding-right: 90px;
-        font-size: 15px;
-        margin-top: 50px;
-
+        align-items: center;
+        justify-content: center;
     }
-
 }

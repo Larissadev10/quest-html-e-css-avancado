@@ -6,7 +6,11 @@ html {
 body {
     background: url(../img/bg-desktop.svg) center center no-repeat;
     background-position-x: -2rem;
-    background-color: #674bb1;
+    background-color: hwb(256 29% 31%);
+    max-width: 1440px;
+    background-size: cover;
+    min-height: 100vh;
+
 }
 
 main {
@@ -15,30 +19,32 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "header header"
-                         "information information"
-                         "footer footer";
+        "information information"
+        "0 footer";
+
 
 }
 
 
 main .header {
+    position: absolute;
     grid-area: header;
     padding: 25px 52px;
     padding-bottom: 0;
+
 
 }
 
 main .header .logo img {
     width: 21rem;
+
 }
-
-
 
 
 main .information {
     grid-area: information;
-
     display: flex;
+
 
 }
 
@@ -47,6 +53,7 @@ main .information .image {
     margin-left: 52px;
     max-width: 720px;
     padding: 0 auto;
+
 }
 
 main .information .about {
@@ -84,6 +91,7 @@ main .information .about p {
     font-size: 17px;
     background-color: #fff;
     border-radius: 40px;
+    box-shadow: 3px 3px 10px rgb(58, 58, 58);
 
 }
 
@@ -100,7 +108,7 @@ main .footer {
     font-size: 18px;
     display: flex;
     justify-self: flex-end;
-    padding: 25px;
+    padding: 0 9px;
 
 }
 
@@ -116,7 +124,7 @@ main .footer a {
     background-color: #674bb1;
     color: #fff;
     margin: 0px 9px;
-    
+
 
 }
 

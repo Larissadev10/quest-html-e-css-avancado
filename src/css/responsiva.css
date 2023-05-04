@@ -1,3 +1,13 @@
+@media (max-width: 2560px) {
+    body {
+        max-width: 2560px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} 
+
+
 @media (max-width: 1000px) {
 
     body {
@@ -73,11 +83,97 @@
     }
 }
 
-@media (min-width: 1500px) {
+
+
+@media (max-width: 480px) {
+
     body {
-        max-width: 2560px;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        background: url(../img/bg-mobile.svg) no-repeat;
+        background-size: 480px;
+        background-color: hwb(256 29% 31%);
+        
     }
-} 
+
+    main {
+        display: flex;
+        flex-direction: column;
+        max-width: 480px;
+        
+    }  
+
+    main .header {
+        padding: 25px 22px;
+    }
+
+
+
+    main .information {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 480px;
+
+    }
+
+    main .information .image {
+       margin-top: 120px;
+       max-width: 400px;
+        
+    }
+
+    main .information img {
+        max-width: 400px;
+        text-align: center;
+      
+    }
+
+    main .information .about {
+        margin-top: 100px;
+        text-align: center;
+        gap: 20px;
+        padding: 0;
+        max-width: 480px;
+        
+    }
+
+    main .information .about h1 {
+        font-size: 32px;
+        text-align: center;
+        margin: auto auto;
+        max-width: 420px;
+    }
+
+    main .information .about p {
+        font-size: 22px;
+        width: 430px;
+        line-height: 40px;
+        text-align: center;
+        margin: auto auto;
+
+    }
+
+    main .information .about a {
+        align-self: center;
+        font-size: 20px;
+        margin-top: 20px;
+        padding: 15px 100px;
+    }
+
+    main .footer {
+        margin-top: 80px;
+        margin: 90px auto;
+    }
+
+    main .footer a {
+        width: 40px;
+        height: 40px;
+    }
+
+    main .footer a i {
+        font-size: 25px;
+
+    }
+}
+
+

@@ -103,9 +103,10 @@
     }  
 
     main .header {
-        padding: 25px 22px;
+        padding: 30px 35px;
     }
-
+     
+  
 
 
     main .information {
@@ -142,11 +143,12 @@
         text-align: center;
         margin: auto auto;
         max-width: 420px;
+        line-height: 45px;
     }
 
     main .information .about p {
-        font-size: 22px;
-        width: 430px;
+        font-size: 20px;
+        width: 420px;
         line-height: 40px;
         text-align: center;
         margin: auto auto;
